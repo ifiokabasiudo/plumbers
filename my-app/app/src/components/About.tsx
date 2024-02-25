@@ -83,7 +83,7 @@ export default function About() {
       <div ref={aboutText} className="w-full lg:w-[65%] lg:pr-12 py-16">
         <div className="w-full">
           <h1 className="text-3xl font-semibold text-[#3f3f3f] w-[80%] mb-7">
-            We've been providing plumbing services for more than a Decade
+            We&apos;ve been providing plumbing services for more than a Decade
           </h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut

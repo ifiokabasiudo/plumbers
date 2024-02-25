@@ -121,7 +121,7 @@ export default function Hero() {
           
           <div className="w-full flex justify-center items-center py-5 gap-3">
             {images.map((image, index) => (
-              <div className={`w-4 h-4 ${currentImageIndex === index ? `border-white` : `border-slate-400`} border bg-transparent flex justify-center items-center rounded-full`}><div className={`w-3 h-3 ${currentImageIndex === index ? `bg-white` : `bg-slate-400`} border-transparent border rounded-full`}/></div>
+              <div key={index} className={`w-4 h-4 ${currentImageIndex === index ? `border-white` : `border-slate-400`} border bg-transparent flex justify-center items-center rounded-full`}><div className={`w-3 h-3 ${currentImageIndex === index ? `bg-white` : `bg-slate-400`} border-transparent border rounded-full`}/></div>
             ))}
           </div>
       </div>
