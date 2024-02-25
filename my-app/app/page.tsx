@@ -26,6 +26,7 @@ export default function Home() {
 
   return (
     <>
+    <iframe src="https://embed.cody.bot/9b6c40f5-2a7b-4c3b-b68c-1b354ac81a23" style={{ border: '0px' }} name="codyai" scrolling="no" frameBorder="1" marginHeight={0} marginWidth={0} height="800px" width="100%" allowFullScreen></iframe>
       <Discount />
       <main className="flex relative min-h-screen flex-col items-center font-montserrat tracking-wide text-[.9rem]">
       <Navbar />
