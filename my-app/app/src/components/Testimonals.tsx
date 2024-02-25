@@ -18,28 +18,28 @@ export default function Testimonials() {
     {
       name: "Tom E. Myers",
       picture: person1,
-      position: "CEO",
+      position: "CEO of ABC Ltd.",
       content:
         "Nunc fringilla est at elit varius, vitae molestie leo porttitor. Nulla facilisi. Donec augue purus.",
     },
     {
       name: "Marie Roberts",
       picture: person2,
-      position: "Financial Manager",
+      position: "",
       content:
         "Nunc fringilla est at elit varius, vitae molestie leo porttitor. Nulla facilisi. Donec augue purus.",
     },
     {
       name: "Joy Sander",
       picture: person3,
-      position: "Operations Manager",
+      position: "Manager @ XYZ corp.",
       content:
         "Nunc fringilla est at elit varius, vitae molestie leo porttitor. Nulla facilisi. Donec augue purus.",
     },
     {
       name: "Dave Jeffery",
       picture: person4,
-      position: "Marketing Executive",
+      position: "",
       content:
         "Nunc fringilla est at elit varius, vitae molestie leo porttitor. Nulla facilisi. Donec augue purus.",
     },
@@ -145,8 +145,8 @@ export default function Testimonials() {
 
   return (
     <div className="w-full pt-16 pb-24 px-8 lg:px-32 gap-3 text-[#535353] text-center">
-      <div ref={animateHeading}><div className="font-semibold text-[#7DBF29]">TESTIMONIES</div>
-      <h1 className="text-3xl mb-16 text-black">Happy Clients & Feedbacks</h1>
+      <div ref={animateHeading}><div className="font-semibold text-[#297cbf]">TESTIMONIES</div>
+      <h1 className="text-3xl mb-16 text-black font-medium">Happy Clients & Feedbacks</h1>
       </div>
       <div ref={testimonials} className="">
         <Slider {...settings}>
@@ -155,7 +155,7 @@ export default function Testimonials() {
               key={index}
               className="relative flex flex-col w-1/3 py-8 px-10 rounded-md bg-white text-left"
             >
-              <div className="absolute top-0 -translate-y-[50%] w-10 h-10 rounded-full bg-[#7DBF29] Z-10 flex justify-center items-center">
+              <div className="absolute top-0 -translate-y-[50%] w-10 h-10 rounded-full bg-[#297cbf] Z-10 flex justify-center items-center">
                 <svg width={25} height={25} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                   <path d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z" fill="#FFFFFF"/>
                 </svg>

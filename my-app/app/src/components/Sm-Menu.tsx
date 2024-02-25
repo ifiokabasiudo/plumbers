@@ -18,12 +18,12 @@ export default function SmMenu () {
       ];
 
     return(
-        <div className="bg-black w-full flex md:hidden flex-col text-[#535353] p-3">
+        <div className="bg-black w-full flex md:hidden flex-col text-[#9b9b9b] p-3">
             <a className="px-5 hover:cursor-pointer w-fit font-semibold" onClick={handleClick}>MENU</a>
             <ul className={`transition-all duration-500 text-[.7rem] ${isOpen ? `h-[200px] opacity-100 mt-3`: `h-0 opacity-0`} w-full`}>
                 {
                     navbarItems.map((navbarItem, index) => (
-                        <li key={index} className="p-2 hover:text-[#7DBF29] hover:cursor-pointer w-fit"><a href="#">{navbarItem.item}</a></li>
+                        <li key={index} className="p-2 hover:text-[#297cbf] hover:cursor-pointer w-fit"><a href="#">{navbarItem.item}</a></li>
                     ))
                 }
             </ul>

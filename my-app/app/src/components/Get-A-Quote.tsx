@@ -38,7 +38,7 @@ export default function GetAQuote() {
 
   return (
     <div className="flex flex-col w-full lg:w-[35%] h-[full]">
-      <div className="getQuoteShow w-full flex justify-center items-center h-[70px] bg-[#7DBF29] text-white">
+      <div className="getQuoteShow w-full flex justify-center items-center h-[70px] bg-[#297cbf] text-white">
         <h1 className="text-lg font-medium">GET A QUOTE</h1>
       </div>
       <div className="flex w-full px-7 py-16 bg-white h-full">
@@ -91,7 +91,7 @@ export default function GetAQuote() {
               placeholder="message"
             ></textarea>
           </div>
-          <button className="bg-[#7DBF29] hover:bg-[#74a139] text-white w-full text-[.8rem] h-12 px-4 p-2 rounded-[4px] font-semibold mt-7">
+          <button className="bg-[#297cbf] hover:bg-[#326186] text-white w-full text-[.8rem] h-12 px-4 p-2 rounded-[4px] font-semibold mt-7">
             SEND MESSAGE
           </button>
         </form>

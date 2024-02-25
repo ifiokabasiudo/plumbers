@@ -27,10 +27,22 @@ body {
   color: rgb(var(--foreground-rgb));
 }
 
-.bg-image {
-  background-image: url("../public/hero-bg.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+.bg-animation {
+  transition-duration: 0.5s;
+  transition-property: all;
+  animation-name: bgChanger;
+}
+
+@keyframes bgChanger {
+  0% {
+    opacity: 0;
+    transform-origin: center;
+    transform: scale(0.8);
+  }100% {
+    opacity: 1;
+    transform-origin: center;
+    transform: scale(1);
+  }
 }
 
 .slick-slide > div {

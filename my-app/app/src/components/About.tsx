@@ -83,7 +83,7 @@ export default function About() {
       <div ref={aboutText} className="w-full lg:w-[65%] lg:pr-12 py-16">
         <div className="w-full">
           <h1 className="text-3xl font-semibold text-[#3f3f3f] w-[80%] mb-7">
-            We help more than 45 years installing your roof
+            We've been providing plumbing services for more than a Decade
           </h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut
@@ -97,7 +97,7 @@ export default function About() {
         <div className="flex flex-col md:flex-row gap-2 mt-16">
           {mottos.map((motto: any, index) => (
             <button
-              className={`tranition-all duration-300 ${motto.name === motto1 ? "bg-[#7DBF29] text-white" : "bg-white text-black"} p-4 w-full md:w-1/3 rounded-md font-medium`}
+              className={`tranition-all duration-300 ${motto.name === motto1 ? "bg-[#297cbf] text-white" : "bg-white text-black"} p-4 w-full md:w-1/3 rounded-md font-medium`}
               key={index}
               onClick={() => {
                 setMotto(motto.name);

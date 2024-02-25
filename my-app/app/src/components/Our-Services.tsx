@@ -6,14 +6,14 @@ import ManStanding from "../../../public/man-standing.png";
 import anime from "animejs";
 
 export default function OurServices() {
-  const [heading, setHeading] = useState("Skylights");
+  const [heading, setHeading] = useState("Sewer Repair");
   const animateHeading = useRef(null);
   const text = useRef(null);
   const text2 = useRef(null);
 
   const items = [
     {
-      item: "Skylights",
+      item: "Sewer Repair",
       content:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut magna laoreet, facilisis turpis vitae, tempor ligula. Aenean id sem non libero facilisis sagittis eget ac arcu. Donec porttitor, libero nec pulvinar porta, nisi urna faucibus quam, vel semper metus sapien et leo. Aliquam eleifend massa id aliquet tincidunt. ",
       lists: [
@@ -25,7 +25,7 @@ export default function OurServices() {
       ],
     },
     {
-      item: "Waterproofing",
+      item: "Trenchless Sewer Replacement",
       content:
         "Integer ut magna laoreet, facilisis turpis vitae, tempor ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id sem non libero facilisis sagittis eget ac arcu. Donec porttitor, libero nec pulvinar porta, nisi urna faucibus quam, vel semper metus sapien et leo. Aliquam eleifend massa id aliquet tincidunt. ",
       lists: [
@@ -36,7 +36,7 @@ export default function OurServices() {
       ],
     },
     {
-      item: "Industrial Roofing",
+      item: "Sewer Pipe Lining",
       content:
         "Aliquam eleifend massa id aliquet tincidunt. Integer ut magna laoreet, facilisis turpis vitae, tempor ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id sem non libero facilisis sagittis eget ac arcu. Donec porttitor, libero nec pulvinar porta, nisi urna faucibus quam, vel semper metus sapien et leo. ",
       lists: [
@@ -48,7 +48,7 @@ export default function OurServices() {
       ],
     },
     {
-      item: "Residential Roofing",
+      item: "Drain Cleaning",
       content:
         "Libero nec pulvinar porta, nisi urna faucibus quam, Integer ut magna laoreet, facilisis turpis vitae, tempor ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id sem non libero facilisis sagittis eget ac arcu. Donec porttitor, libero nec pulvinar porta, nisi urna faucibus quam, vel semper metus sapien et leo. Aliquam eleifend massa id aliquet tincidunt. ",
       lists: [
@@ -59,7 +59,7 @@ export default function OurServices() {
       ],
     },
     {
-      item: "Gutter Cleaning",
+      item: "Hydro Jetting",
       content:
         "Donec porttitor, libero nec pulvinar porta, nisi urna faucibus quam, vel semper metus sapien et leo. Integer ut magna laoreet, facilisis turpis vitae, tempor ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id sem non libero facilisis sagittis eget ac arcu. Aliquam eleifend massa id aliquet tincidunt. ",
       lists: [
@@ -71,7 +71,7 @@ export default function OurServices() {
       ],
     },
     {
-      item: "Commercial Roofing",
+      item: "Camara Inspection",
       content:
         "Integer ut magna laoreet, facilisis turpis vitae, tempor ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id sem non libero facilisis sagittis eget ac arcu. Donec porttitor, libero nec pulvinar porta, nisi urna faucibus quam, vel semper metus sapien et leo. Aliquam eleifend massa id aliquet tincidunt. ",
       lists: [
@@ -163,7 +163,7 @@ export default function OurServices() {
 
   return (
     <div className="w-full min-h-[90vh] flex flex-col text-center text-[#535353] py-16 px-8 lg:px-32 transition-all bg-white">
-      <h1 ref={animateHeading} className="text-3xl">Our Best Services</h1>
+      <h1 ref={animateHeading} className="text-3xl font-medium">Our Best Services</h1>
       <div className="flex flex-col md:flex-row text-left font-medium mt-16 gap-10">
         <ul ref={text} className="md:w-[25%] text-black">
           {items.map((item, index) => (

@@ -12,6 +12,8 @@ import Testimonials from "./src/components/Testimonals";
 import ContactUs from "./src/components/Contact-Us";
 import MdMenu from "./src/components/Md-Menu";
 import SmMenu from "./src/components/Sm-Menu";
+import Blog from "./src/components/Blog";
+import Discount from "./src/components/Discount";
 import { useRouter } from "next/navigation";
 import { useEffect } from "react";
 
@@ -23,7 +25,9 @@ export default function Home() {
   }, []);
 
   return (
-    <main className="flex relative min-h-screen flex-col items-center font-montserrat tracking-wide text-[.9rem]">
+    <>
+      <Discount />
+      <main className="flex relative min-h-screen flex-col items-center font-montserrat tracking-wide text-[.9rem]">
       <Navbar />
       <SmMenu />
       <Hero />
@@ -33,8 +37,10 @@ export default function Home() {
       <Numbers />
       <OurServices />
       <DoneProjects />
+      <Blog />
       <Testimonials />
       <ContactUs />
     </main>
+    </>
   );
 }
