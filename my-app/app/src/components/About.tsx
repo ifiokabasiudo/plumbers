@@ -107,19 +107,19 @@ export default function About() {
             <span>
               
 
-<b>Delivering Outstanding Plumbing Solutions.</b></br>We provide exceptional plumbing solutions that consistently surpass customer expectations. We prioritize prompt, reliable, and professional service, utilizing advanced training and technology to maintain our industry leadership.
+<b>Delivering Outstanding Plumbing Solutions.</b><br>We provide exceptional plumbing solutions that consistently surpass customer expectations. We prioritize prompt, reliable, and professional service, utilizing advanced training and technology to maintain our industry leadership.
             </span>
           ) : motto1 === "Our Vision" ? (
             <span>
               
 
-<b>Leading Sustainable Plumbing Innovation.</b></br>Our vision is to pioneer sustainable plumbing practices, integrating innovative technologies for a greener future. We aim to minimize environmental impact while maximizing system efficiency, contributing positively to the communities we serve.
+<b>Leading Sustainable Plumbing Innovation.</b><br>Our vision is to pioneer sustainable plumbing practices, integrating innovative technologies for a greener future. We aim to minimize environmental impact while maximizing system efficiency, contributing positively to the communities we serve.
             </span>
           ) : (
             <span>
               
 
-<b>Integrity, Excellence, Customer-Centricity.</b></br>Rooted in integrity, excellence, and customer focus, our values define our approach to business. We prioritize honesty, transparency, and ethical behavior, delivering the highest quality workmanship and service standards.
+<b>Integrity, Excellence, Customer-Centricity.</b><br>Rooted in integrity, excellence, and customer focus, our values define our approach to business. We prioritize honesty, transparency, and ethical behavior, delivering the highest quality workmanship and service standards.
             </span>
           )}
         </div>
