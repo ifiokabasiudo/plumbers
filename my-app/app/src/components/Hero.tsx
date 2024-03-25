@@ -112,7 +112,7 @@ export default function Hero() {
             BEST PLUMBER EVER
           </h3>
           <h1 className="text-xl md:text-3xl mt-3 w-[60%] font-light">
-          We specialize in Sewer replacement and repair, Rooter service, Drains and Plumbing.
+          We specialize in changing gyser element, Rooter service, Drains and Plumbing.
           </h1>
           <button className="bg-[#297cbf] hover:transition-all  hover:-translate-y-1 text-[.7.5rem] px-4 p-2 rounded-md font-medium mt-16">
             BOOK AN APPOINTMENT
