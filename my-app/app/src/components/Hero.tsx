@@ -109,7 +109,7 @@ export default function Hero() {
           className="heroText w-full h-full flex flex-col justify-center items-center"
         >
           <h3 className="text-2xl font-bold md:text-5xl text-rose-600 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">
-            A1 SEWER SOLUTIONS
+            BEST PLUMBER EVER
           </h3>
           <h1 className="text-xl md:text-3xl mt-3 w-[60%] font-light">
           We specialize in Sewer replacement and repair, Rooter service, Drains and Plumbing.
