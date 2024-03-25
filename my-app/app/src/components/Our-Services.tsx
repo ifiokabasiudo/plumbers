@@ -13,7 +13,7 @@ export default function OurServices() {
 
   const items = [
     {
-      item: "Sewer Repair",
+      item: "Changing Gyser Element",
       content:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut magna laoreet, facilisis turpis vitae, tempor ligula. Aenean id sem non libero facilisis sagittis eget ac arcu. Donec porttitor, libero nec pulvinar porta, nisi urna faucibus quam, vel semper metus sapien et leo. Aliquam eleifend massa id aliquet tincidunt. ",
       lists: [
