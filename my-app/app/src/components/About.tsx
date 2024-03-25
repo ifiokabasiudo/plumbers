@@ -86,12 +86,7 @@ export default function About() {
             We&apos;ve been providing plumbing services for more than a Decade
           </h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut
-            magna laoreet, facilisis turpis vitae, tempor ligula. Aenean id sem
-            non libero facilisis sagittis eget ac arcu. Donec porttitor, libero
-            nec pulvinar porta, nisi urna faucibus quam, vel semper metus sapien
-            et leo. Aliquam eleifend massa id aliquet tincidunt. Aenean cursus
-            rhoncus nibh, quis elementum velit lacinia a.
+            From fixing leaky faucets to installing complex piping systems, we have been the go-to experts for all your plumbing needs. Our commitment to excellence and customer satisfaction has made us a trusted name in the industry. With our wealth of experience and dedication to quality workmanship, you can trust us to handle any plumbing issue efficiently and effectively.
           </p>
         </div>
         <div className="flex flex-col md:flex-row gap-2 mt-16">
@@ -110,21 +105,21 @@ export default function About() {
         <div className="bg-white p-4 rounded-md w-full mt-2 min-h-28 text-[.8rem]">
           {motto1 === "Our Mission" ? (
             <span>
-              Duis non vulputate ipsum. Curabitur vestibulum fermentum
-              consectetur. Quisque turpis magna, semper in elit vitae, mattis
-              pulvinar lectus. Duis sit amet sodales erat.
+              
+
+<b>Delivering Outstanding Plumbing Solutions.</b></br>We provide exceptional plumbing solutions that consistently surpass customer expectations. We prioritize prompt, reliable, and professional service, utilizing advanced training and technology to maintain our industry leadership.
             </span>
           ) : motto1 === "Our Vision" ? (
             <span>
-              Quisque turpis magna, semper in elit vitae, mattis pulvinar
-              lectus. Duis sit amet sodales erat. Duis non vulputate ipsum.
-              Curabitur vestibulum fermentum consectetur.
+              
+
+<b>Leading Sustainable Plumbing Innovation.</b></br>Our vision is to pioneer sustainable plumbing practices, integrating innovative technologies for a greener future. We aim to minimize environmental impact while maximizing system efficiency, contributing positively to the communities we serve.
             </span>
           ) : (
             <span>
-              Curabitur vestibulum fermentum. Duis non vulputate ipsum
-              consectetur. Quisque turpis magna, semper in elit vitae, mattis
-              pulvinar lectus. Duis sit amet sodales erat.
+              
+
+<b>Integrity, Excellence, Customer-Centricity.</b></br>Rooted in integrity, excellence, and customer focus, our values define our approach to business. We prioritize honesty, transparency, and ethical behavior, delivering the highest quality workmanship and service standards.
             </span>
           )}
         </div>
