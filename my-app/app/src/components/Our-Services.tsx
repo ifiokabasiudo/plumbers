@@ -6,7 +6,7 @@ import ManStanding from "../../../public/man-standing.png";
 import anime from "animejs";
 
 export default function OurServices() {
-  const [heading, setHeading] = useState("Sewer Repair");
+  const [heading, setHeading] = useState("Changing Gyser Element");
   const animateHeading = useRef(null);
   const text = useRef(null);
   const text2 = useRef(null);
