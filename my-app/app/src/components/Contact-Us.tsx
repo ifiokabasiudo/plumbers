@@ -7,7 +7,7 @@ export default function ContactUs() {
   const animateSocials = useRef(null);
 
   const services = [
-    { name: "Sewer Repair" },
+    { name: "Changing Gyser Element" },
     { name: "Trenchless Sewer Replacement" },
     { name: "Sewer Pipe Lining" },
     { name: "Drain Cleaning" },
