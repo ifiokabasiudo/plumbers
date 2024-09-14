@@ -72,7 +72,7 @@ export default function Navbar() {
 
   return (
     <div className="lg:absolute z-50 lg:top-0 lg:left-0 w-full lg:h-[150px] bg-zinc-900 lg:bg-transparent flex items-center justify-between py-3 px-4 md:px-20 lg:px-40 text-white">
-      <a className="flex justify-center items-end gap-3">
+{/*       <a className="flex justify-center items-end gap-3">
         {/* <svg
           className="w-[30px] h-[30px] lg:w-[50px] lg:h-[50px]"
           xmlns="http://www.w3.org/2000/svg"
@@ -115,7 +115,7 @@ export default function Navbar() {
             />
           </defs>
         </svg>
-      </a>
+      </a> */}
       <span className="flex justify-center items-center">
         {socials.map((social, index) => (
           <a
